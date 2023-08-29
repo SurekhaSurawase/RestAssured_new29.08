@@ -43,6 +43,7 @@ public class HTTP_Requests {
 
 		// .then().statusCode(201).log().all();
 
+		System.out.println("new Changes done");
 	}
 
 	@Test(priority = 3, dependsOnMethods = { "CreateUser" })
